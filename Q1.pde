@@ -15,13 +15,13 @@ void setup(){
   frustum(-1, 1, 1, -1, 1, 23);
   resetMatrix();
   textureMode(NORMAL);
-  bricks = loadImage("assets/floor2.jpg");
-  walls = loadImage("assets/walls2.jpg");
-  ceilling = loadImage("assets/ceilling.jpg");
-  exA = loadImage("assets/exA.jpg");
-  exB = loadImage("assets/exB.jpg");
-  exC = loadImage("assets/exC.jpg");
-  exD = loadImage("assets/exD.jpg");
+  bricks = loadImage("Assets/floor2.jpg");
+  walls = loadImage("Assets/walls2.jpg");
+  ceilling = loadImage("Assets/ceilling.jpg");
+  exA = loadImage("Assets/exA.jpg");
+  exB = loadImage("Assets/exB.jpg");
+  exC = loadImage("Assets/exC.jpg");
+  exD = loadImage("Assets/exD.jpg");
   textureWrap(REPEAT);
   noStroke();
 }
